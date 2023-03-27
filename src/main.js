@@ -131,3 +131,17 @@ function updateTotal() {
     }
     document.getElementsByClassName('total-price')[0].innerText = "R$" + total;
 }
+
+
+const select_img = document.querySelector('.select-img')
+const thumbs=document.querySelectorAll('.thumb')
+
+
+thumbs.forEach(actual=>{
+    actual.addEventListener('click',function(){
+        const active=document.querySelector('.active')
+        active.classList.remove('active')
+        this.classList.add('active')
+        select_img.src=this.src
+    })
+})
