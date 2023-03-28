@@ -124,3 +124,44 @@ box-shadow: 0 5px 5px rgba(1,23,46,0.6);
     opacity: 1 !important;
     box-shadow: 0 5px 5px rgba(1, 23, 46, 0.6);
 }
+
+.redirect{
+    display: flex;
+    justify-content:flex-start;
+    width: 100%;
+    padding: 50px 6vw 0;
+}
+
+.contact-us{
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+    padding-left: 5%;
+}
+
+.redirect .foot-opt-title{
+    border-bottom: 1px solid #190c05;
+}
+
+.contact-tel{
+    display: flex;
+    flex-direction: column;
+    padding: 5% 0px;
+}
+
+.pay-methods{
+    width: 100%;
+    padding: 50px 6vw 0;
+    
+}
+
+.pay-methods .foot-opt-title{
+    border: 1px solid #190c05;
+    padding: 15px 15px;
+}
+
+.redirect .icon{
+    padding-left: 40%;
+    width: 200px;
+    height: 200px;
+}

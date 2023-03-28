@@ -145,3 +145,28 @@ thumbs.forEach(actual=>{
         select_img.src=this.src
     })
 })
+
+
+
+
+
+async()=>{
+    const response=await fetch('./products.json')
+    const data= await response.json()
+
+    let productDetail=document.querySelector('.product-refer')
+
+    productDetail.innerHTML(`
+        <h1 class="product-name">Carregador Para Carros Elétricos Wallbox Growatt</h1>
+        <p class="product-desc">Growatt SPF 5000ES 220V 48V OFF-GRID 1 MPPT</p>
+        <div class="brand-cont">
+        <p class="product-brand">Marca :</p>
+        <p class="brand">Growatt</p>
+         </div>
+        <p class="price">R$5500</p>`)
+}
+    
+    
+
+
+
